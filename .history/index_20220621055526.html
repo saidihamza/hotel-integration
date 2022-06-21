@@ -1,0 +1,191 @@
+
+	<!DOCTYPE html>
+	<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>test</title>
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@600&display=swap"
+			rel="stylesheet">
+		<!--Perso CSS -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Perso JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+
+	</head>
+
+	<body>
+
+		<nav>
+			<div class="logo-row">
+				<a class="logo" href="#"><img src="./images/logo.png" alt="Logo de CODE - Realty Group" /></a>
+			</div>
+
+			<ul>
+				<li>
+					<a href="#">ACCEUIL</a>
+				</li>
+				<li>
+					<a href="#">SUITES</a>
+					<div class="menu">
+						<div class="sous-menu">
+							<ul>
+								<li><a href="#">LIEN 01</a></li>
+								
+								<li><a href="#">LIEN 02</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">RESTAURANTS</a>
+				</li>
+				<li>
+					<a href="#">SPAS</a>
+				</li>
+				<li>
+					<a href="#">RESERVATION</a>
+				</li>
+				<li>
+					<a href="#">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main class="container">
+
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+
+					<img src="./images/slide.jpg" style="width:100%">
+
+				</div>
+				<a class="prev" onclick="plusSlides(-1)"><img src="./images/prev-slide.png" alt="" srcset=""></a>
+				<a class="next" onclick="plusSlides(1)"><img src="./images/next-slide.png" alt="" srcset=""></a>
+
+			</div>
+			</article>
+			<section class="container">
+				<h1>BIENVENUE SUR NOTRE SITE WEB</h1>
+				<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa adipisci tenetur
+					inventore
+				</p>
+			</section>
+			<section class="work">
+				<h3>EN SAVOIR PLUS</h3>
+				<article>
+					<h4>SPAS</h4>
+					<img src="./images/img-bx1.jpg" alt="Photo de la moto #1" />
+					<p>Lorem ipsum <span> dolor sit amet</span>, consectetur adipisicing elit. Consectetur culpa
+						adipisci tenetur
+						inventore
+					</p>
+					<a href="#"><strong>En savoir plus</strong> </a>
+				</article>
+				<!--
+				 -->
+				<article id="resto">
+					<h4>RESTAURANTS</h4>
+					<img src="./images/img-bx2.jpg" alt="Photo de la moto #2" />
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span>Consectetur culpa</span> adipisci
+						tenetur
+						inventore
+					</p>
+					<a href="#"><strong>En savoir plus</strong> </a>
+				</article>
+				<!--
+				 -->
+				<article>
+
+					<h4>SUITES</h4>
+					<img src="./images/img-bx3.jpg" alt="Photo de la moto #3" />
+					<p>Lorem ipsum <span>dolor sit amet</span> , consectetur adipisicing elit. Consectetur culpa
+						adipisci tenetur
+						inventore
+					</p>
+					<a href="#"><strong>En savoir plus</strong> </a>
+				</article>
+			</section>
+			</article>
+			</section>
+			<section class="gallery">
+				<article>
+					<h3>GALLERIE PHOTOS</h3>
+
+					<div id="slider-container">
+						<span onclick="slideRight()" class="btn"><img src="./images/prev-galerie.png" alt=""></span>
+						<div id="slider">
+
+
+							<div class="slide"><img src="/images/img-gal1.jpg" alt=""></div>
+							<div class="slide"><img src="/images/img-gal2.jpg" alt=""></div>
+							<div class="slide"><img src="/images/img-gal3.jpg" alt=""></div>
+							<div class="slide"><img src="/images/img-gal4.jpg" alt=""></div>
+
+						</div>
+						<span onclick="slideLeft()" class="btn"><img src="./images/next-galerie.png" alt=""></span>
+
+					</div>
+
+				</article>
+			</section>
+			<footer>
+				<article>
+					<h4>NEWSLETTER</h4>
+					<p>Inscrivez a notre lettre de diffusion ci-dessous</p>
+					<p>afin de connaitre nos derniéres actualités </p>
+					<p>et promotions</p>
+					<div>
+						<input type="text" name="" id="" placeholder="Email">
+						<button type="submit">
+							S'inscrire
+						</button>
+					</div>
+
+				</article>
+				<article>
+
+					<h4>CONTACTEZ NOUS</h4>
+					<ul>
+						<li><img src="./images/icon-home.png" alt=""> LUXURY HOTEL</li>
+						<li>Rue de la rupublique, 19 1082 Tunis</li>
+						<li> Tunisie</li>
+						<li><img src="./images/icon-map.png" alt=""><a href="">plan d'accées</a></li>
+					</ul>
+
+				</article>
+				<article class="contact">
+
+					<ul>
+						<li><img src="./images/icon-tel.png" alt=""> TEl :+216710000</li>
+						<li><a href=""><img src="./images/icon-mail.png" alt=""> contact@luxuryhotel.com</a></li>
+						<li><img src="./images/icon-ma.png" alt=""> MA80050</li>
+					</ul>
+
+				</article>
+				<article class="social">
+
+					<ul>
+						<li><a href="#" class="fa fa-facebook"></a></li>
+						<li><a href="#" class="fa fa-twitter"></a></li>
+						<li><a href="#" class="fa fa-google"></a></li>
+					</ul>
+
+				</article>
+
+			</footer>
+			<script src="./js/index.js"></script>
+	</body>
+
+	</html>
